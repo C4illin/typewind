@@ -12,6 +12,9 @@ env:
   # for the Typst package registry, keep this as is
   PATH_PREFIX: packages/preview
 
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
