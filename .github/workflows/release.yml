@@ -1,7 +1,7 @@
 name: Package and push to registry repo
 on:
   push:
-    tags: [ v* ]
+    tags: [v*]
 
 env:
   # the repository to which to push the release version
@@ -14,6 +14,7 @@ env:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   release:
@@ -42,6 +43,9 @@ jobs:
             echo "package version ${VERSION} does not match release tag ${GITHUB_REF_NAME}" >&2
             exit 1
           fi
+
+      - name: Make package script executable
+        run: chmod +x ./scripts/package
 
       - name: Build package
         run: |
