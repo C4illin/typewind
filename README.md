@@ -2,7 +2,7 @@
 
 <div align="center">Version 0.1.0</div>
 
-All tailwind colors in Typst, easily accessible via their default tailwind names.
+All tailwind colors in typst, easily accessible via their default tailwind names.
 
 <!-- ## Template adaptation checklist
 
