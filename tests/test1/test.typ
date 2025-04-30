@@ -1,4 +1,4 @@
-#import "/src/lib.typ": *
+#import "/src/lib.typ" as typewind: *
 #import "../../docs/manual.typ": *
 
 #set page(columns: 5, height: 354pt)
