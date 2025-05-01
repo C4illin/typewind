@@ -8,8 +8,6 @@
 
 #set text(22pt)
 #align(center)[
-  #box(height: 18pt, width: 18pt, fill: emerald-700, radius: 1mm)
-  #text(fill: neutral-600)[_emerald-700_]
-  #box(height: 18pt, width: 18pt, fill: rose-300, radius: 1mm)
-  #text(fill: neutral-600)[_rose-300_]
+  #box(height: 18pt, width: 18pt, fill: emerald-700, radius: 1mm) _emerald-700_
+  #box(height: 18pt, width: 18pt, fill: rose-300, radius: 1mm) _rose-300_
 ]
