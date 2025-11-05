@@ -14,8 +14,8 @@ All tailwind colors in typst, easily accessible via their default tailwind names
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./thumbnail-dark.svg">
-  <img src="./thumbnail-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C4illin/typewind/refs/heads/main/thumbnail-dark.svg">
+  <img src="https://raw.githubusercontent.com/C4illin/typewind/refs/heads/main/thumbnail-light.svg">
 </picture>
 
 You can also access the colors via a prefix, if you don't want to pollute your namespace with all the colors:
