@@ -1,6 +1,6 @@
 # The `typewind` Package
 
-![Version](https://img.shields.io/badge/version-0.2.0-green) <!-- x-release-please-version -->
+![Version](https://img.shields.io/static/v1?label=version&message=0.2.0&color=green) <!-- x-release-please-version -->
 [![Manual](https://img.shields.io/badge/docs-manual.pdf-orange)](docs/manual.pdf?raw=true)
 [![Repo](https://img.shields.io/badge/GitHub-repo-444)](https://github.com/C4illin/typewind)
 
