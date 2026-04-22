@@ -9,6 +9,9 @@
 
 .github
 .gitignore
+.release-please-manifest.json
+release-please-config.json
+CHANGELOG.md
 scripts
 tests
 Justfile
