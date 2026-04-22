@@ -15,16 +15,14 @@ All tailwind colors in typst, easily accessible via their default tailwind names
 #box(height: 18pt, width: 18pt, fill: emerald-700, radius: 1mm) _emerald-700_
 #box(height: 18pt, width: 18pt, fill: rose-300, radius: 1mm) _rose-300_
 ```
-<!-- x-release-please-end-version -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C4illin/typewind/refs/heads/main/thumbnail-dark.svg">
-  <img src="https://raw.githubusercontent.com/C4illin/typewind/refs/heads/main/thumbnail-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C4illin/typewind/refs/tags/v0.2.0/thumbnail-dark.svg">
+  <img alt="emerald-700 and rose-300 color swatches rendered in typst" src="https://raw.githubusercontent.com/C4illin/typewind/refs/tags/v0.2.0/thumbnail-light.svg">
 </picture>
 
 You can also access the colors via a prefix, if you don't want to pollute your namespace with all the colors:
 
-<!-- x-release-please-start-version -->
 ```typ
 #import "@preview/typewind:0.2.0" as tw
 
