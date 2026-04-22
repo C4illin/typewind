@@ -1,8 +1,8 @@
 # The `typewind` Package
 
-![Version](https://img.shields.io/static/v1?label=version&message=0.2.0&color=green) <!-- x-release-please-version -->
-[![Manual](https://img.shields.io/badge/docs-manual.pdf-orange)](docs/manual.pdf?raw=true)
-[![Repo](https://img.shields.io/badge/GitHub-repo-444)](https://github.com/C4illin/typewind)
+![Badge displaying version](https://img.shields.io/static/v1?label=version&message=0.2.0&color=green) <!-- x-release-please-version -->
+[![Badge to manual](https://img.shields.io/badge/docs-manual.pdf-orange)](docs/manual.pdf?raw=true)
+[![Badge to the GitHub repo](https://img.shields.io/badge/GitHub-repo-444)](https://github.com/C4illin/typewind)
 
 All tailwind colors in typst, easily accessible via their default tailwind names.
 
