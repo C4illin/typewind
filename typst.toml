@@ -2,7 +2,7 @@
 
 [package]
 name = "typewind"
-version = "0.2.0" # x-release-please-version
+version = "0.1.0" # x-release-please-version
 entrypoint = "src/lib.typ"
 authors = ["Emrik Östling (C4illin)"]
 license = "MIT"
